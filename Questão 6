@@ -1,25 +1,25 @@
 #include<stdio.h>
 
-int avalia (int n,int n2,int n3) {
+     int avalia (int n,int n2,int n3) {
 
 if(n > n2 && n > n3 ){
 
-return n;
+      return n;
 
 }else if (n2 > n && n2 > n3 ){
  
- return n2;
+      return n2;
 
 }else
 
-return n3;
+       return n3;
 }
 
 
 int main()
 {
-int n;
-int n2;
+      int n;
+    int n2;
 int n3;
 
 int resultado;
@@ -33,8 +33,7 @@ scanf("%d",&n2);
 printf("Digite o terceiro número para a comparação :\n");
 scanf("%d",&n3);
 
-
-resultado = avalia (n,n2,n3); 
+         resultado = avalia (n,n2,n3); 
 
 printf("O Maior número será o %d\n ",resultado);
 
