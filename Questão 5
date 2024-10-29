@@ -3,15 +3,15 @@
 
 int mcd(int a, int b) {
     if (b == 0) {
-        return a;  // Caso base: se b é 0, o MCD é a
+        return a;  
     } else {
-        return mcd(b, a % b);  // Chamada recursiva
+        return mcd(b, a % b);  
     }
 }
 
 int main() {
-    int num1 = 56;  // Primeiro número
-    int num2 = 98;  // Segundo número
+    int num1 = 56;  
+    int num2 = 98;  
 
     int resultado = mcd(num1, num2);
 
