@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int adicao (int n) {
+
+int resultado; 
+
+if (n == 1) {
+
+return 1;
+
+}else
+
+{ return n + adicao (n - 1); }
+
+}
+
+
+int main() {
+    
+    int n;
+    int soma;
+    
+    printf("Digite um numero \n");
+    scanf("%d",&n);
+    
+    soma = adicao (n);
+    
+    printf("O resultado é  %d \n",soma);
+    
+    
+return 0;} 
